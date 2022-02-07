@@ -1,4 +1,9 @@
 paths:
+  src/ign-cmake:
+    cmake-args:
+      - -DCMAKE_CXX_FLAGS=-D_GLIBCXX_USE_CXX11_ABI=0
+      - -DCMAKE_BUILD_TYPE=Release
+      - -DBUILD_TESTING=OFF
   src/ign-common:
     cmake-args:
       - -DCMAKE_CXX_FLAGS=-D_GLIBCXX_USE_CXX11_ABI=0
