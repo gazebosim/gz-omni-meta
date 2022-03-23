@@ -33,6 +33,7 @@ paths:
       - -DBUILD_TESTING=OFF
   src/sdformat:
     cmake-args:
+      - -DSKIP_usd=TRUE
       - -DCMAKE_CXX_FLAGS=-D_GLIBCXX_USE_CXX11_ABI=0
       - -DCMAKE_BUILD_TYPE=Release
       - -DBUILD_TESTING=OFF
