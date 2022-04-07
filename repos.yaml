@@ -1,7 +1,7 @@
 repositories:
   ign-omni:
     type: git
-    url: git@github.com:ignitionrobotics/ign-omni.git
+    url: https://github.com/ignitionrobotics/ign-omni.git
     version: main
   ign-common:
     type: git
