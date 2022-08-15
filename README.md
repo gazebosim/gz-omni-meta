@@ -23,7 +23,7 @@ git -C src/protobuf apply ../../protobuf-cmake.patch
 Build
 
 ```bash
-colcon build --merge-install --packages-up-to ignition-omni1
+colcon build --merge-install --packages-up-to ignition-omniverse1
 ```
 
 **Note:** `ignition-omni` will be built under `src/ign-omni/_build`, this is because it uses a custom build system by nvidia which is hard coded to put output in that directory.
