@@ -1,32 +1,32 @@
 paths:
-  src/ign-cmake:
+  src/gz-cmake:
     cmake-args:
       - -DCMAKE_CXX_FLAGS=-D_GLIBCXX_USE_CXX11_ABI=0
       - -DCMAKE_BUILD_TYPE=Release
       - -DBUILD_TESTING=OFF
-  src/ign-common:
+  src/gz-common:
     cmake-args:
       - -DCMAKE_CXX_FLAGS=-D_GLIBCXX_USE_CXX11_ABI=0
       - -DCMAKE_BUILD_TYPE=Release
       - -DBUILD_TESTING=OFF
-  src/ign-math:
+  src/gz-math:
     cmake-args:
       - -DCMAKE_CXX_FLAGS=-D_GLIBCXX_USE_CXX11_ABI=0
       - -DCMAKE_BUILD_TYPE=Release
       - -DBUILD_TESTING=OFF
-  src/ign-utils:
+  src/gz-utils:
     cmake-args:
       - -DCMAKE_CXX_FLAGS=-D_GLIBCXX_USE_CXX11_ABI=0
       - -DCMAKE_BUILD_TYPE=Release
       - -DBUILD_TESTING=OFF
-  src/ign-msgs:
+  src/gz-msgs:
     dependencies:
       - protobuf
     cmake-args:
       - -DCMAKE_CXX_FLAGS=-D_GLIBCXX_USE_CXX11_ABI=0
       - -DCMAKE_BUILD_TYPE=Release
       - -DBUILD_TESTING=OFF
-  src/ign-transport:
+  src/gz-transport:
     cmake-args:
       - -DCMAKE_CXX_FLAGS=-D_GLIBCXX_USE_CXX11_ABI=0
       - -DCMAKE_BUILD_TYPE=Release

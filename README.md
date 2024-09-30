@@ -1,4 +1,4 @@
-This is a meta repo containing the workspace and instructions to build `ign-omni`.
+This is a meta repo containing the workspace and instructions to build `gz-omni`.
 
 ## Requirements
 
@@ -23,7 +23,7 @@ git -C src/protobuf apply ../../protobuf-cmake.patch
 Build
 
 ```bash
-colcon build --merge-install --packages-up-to ignition-omniverse1
+colcon build --merge-install --packages-up-to gz-omniverse1
 ```
 
-**Note:** `ignition-omni` will be built under `src/ign-omni/_build`, this is because it uses a custom build system by nvidia which is hard coded to put output in that directory.
+**Note:** `gz-omni` will be built under `src/gz-omni/_build`, this is because it uses a custom build system by nvidia which is hard coded to put output in that directory.
